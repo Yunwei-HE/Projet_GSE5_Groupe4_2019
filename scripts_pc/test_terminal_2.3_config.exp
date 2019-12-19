@@ -1,0 +1,7 @@
+#!/usr/bin/expect
+
+spawn ssh administreur-optiplex-9021
+expect "password:"
+send "@kintex7\r"	
+
+
