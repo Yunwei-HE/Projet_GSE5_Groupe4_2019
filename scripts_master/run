@@ -1,0 +1,4 @@
+mate-terminal -t "roscore" -x bash -c "/home/odroid/commande/roscore.sh;exec bash" && sleep 5 &&
+mate-terminal -t "master" -x bash -c "/home/odroid/commande/master.sh;exec bash" && sleep 5 &&
+mate-terminal -t "rplidar" -x bash -c "/home/odroid/commande/rplidar.sh;exec bash" && sleep 5 &&
+mate-terminal -t "camera" -x bash -c "/home/odroid/commande/camera.sh;exec bash"

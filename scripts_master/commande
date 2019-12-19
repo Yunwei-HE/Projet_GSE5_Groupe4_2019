@@ -1,0 +1,32 @@
+,communicate with wifi
+install ssh
+sudo apt-get install openssh-server
+
+sudo ps -e |grep ssh
+
+//if it is not opened
+
+sudo service ssh start
+
+//search for IP
+//edit /etc/hosts
+
+//<slame IP>	slame name 
+sudo /etc/init.d/networking restart
+
+ping slame name
+ 
+//master
+ssh odroid
+roscore
+
+
+ssh odroid
+export ROS_MASTER_URI=http://odroid:11311
+rosrun rospy_tutorials listener.py
+cd catkin_ws
+source devel_isolated/setup.bash
+sudo chmod 666 /dev/ttyUSB0
+roslaunch rplidar_ros rplidar.launch
+
+demo.launch run in the slame(PC)
