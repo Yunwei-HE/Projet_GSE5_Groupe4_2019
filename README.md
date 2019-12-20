@@ -15,14 +15,14 @@ Vidéo_Démonstration:    Ecran d'enregistrement de la cartographie du bâtiment
 README:                 Project files and directories description
 
 # Prerequisite, compile and run
-*PC
+* PC
 Ubuntu 18.04
 
 ROS(melodic)
 
 Google Cartographer
 
-*Exynos
+* Exynos
 Ubuntu mate 16.04 32bits
 
 ROS(kinetic)
