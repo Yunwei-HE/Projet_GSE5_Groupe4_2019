@@ -12,17 +12,21 @@ scripts_pc:             Tous les scripts du côté PC pour lancher rviz, établi
 
 Vidéo_Démonstration:    Ecran d'enregistrement de la cartographie du bâtiment sud étage 0
                 
-README:                 Project files and directories description
+README:                 Project files and directories description, Prerequisite, compile and run
 
 # Prerequisite, compile and run
 * PC
+
 Ubuntu 18.04
 
 ROS(melodic)
 
 Google Cartographer
 
+OpenCV
+
 * Exynos
+
 Ubuntu mate 16.04 32bits
 
 ROS(kinetic)
