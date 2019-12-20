@@ -31,3 +31,6 @@ Ubuntu mate 16.04 32bits
 
 ROS(kinetic)
 
+# compile and run
+
+Après avoir installé les fichiers requis, téléchargez simplement les fichiers des scripts pour chaque côté master et esclave, pour tester il vous faut lancher le fichier "run" dans un terminal.
