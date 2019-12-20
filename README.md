@@ -14,7 +14,7 @@ Vidéo_Démonstration:    Ecran d'enregistrement de la cartographie du bâtiment
                 
 README:                 Project files and directories description, Prerequisite, compile and run
 
-# Prerequisite, compile and run
+# Prerequisite
 * PC
 
 Ubuntu 18.04
